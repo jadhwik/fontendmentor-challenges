@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(209, 175, 39);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style:solid;
+    border-color: black;
+    border-width:1px;
+    border-radius:30px;
+    width:400px;
+    box-shadow:10px 15px ;
+    margin:100px 500px;
+
+}
+.container img{
+    padding-top: 20px;
+    border-radius:10px 10px;
+
+}
+#l{
+    text-align:left;
+    margin-left:30px;
+    margin-top:20px;
+    background-color: rgb(209, 175, 39);
+    padding:5px;
+    width:fit-content;
+    font-weight:bold;
+    border-radius: 5px;
+}
+p{
+    text-align:left;
+    margin-left:30px;
+    color:rgb(129, 124, 124);
+}
+#html{
+    text-align:left;
+    margin-left:30px;
+    font-size: larger;
+    color:rgb(211, 149, 14);
+    font-family:new;
+    font-weight: bold;
+}
+#par{
+    text-align:left;
+    margin-left:30px;
+    margin-top:20px;
+    font-family: new1;
+    display:grid;
+    color:rgb(129, 124, 124);
+}
+table{
+    padding:20px;
+    font-weight:bold;
+}
+@font-face{
+    font-family: 'new';
+    src:url(Figtree-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'new1';
+    src:url(Figtree-Italic-VariableFont_wght.ttf);
+}
